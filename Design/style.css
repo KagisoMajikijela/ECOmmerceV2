@@ -187,3 +187,25 @@ body {
   text-align: center;
 }
 
+/*Footer styling*/
+.nav-footerlinks{
+  background-color: rgb(211, 211, 211);
+  width: 100%;
+  height: auto;  
+
+}
+.footerlinks i a{
+  text-decoration: none;
+color: black;
+}
+.socials a{
+text-decoration: none;
+color: black;
+display:grid;
+justify-content:flex-start;
+align-content: center;
+text-align: justify;
+}
+.socials{
+  height: auto;
+}
