@@ -13,14 +13,17 @@ body{
     gap: 12px ;
     align-items: center;
     height: 70px;
-    width: auto;
+    width: 100%;
     justify-content: flex-end;
     padding: 17px;
+    position:fixed;
+
 }
 .navbar{
     justify-content: flex-end;
     display: flex;
     gap: 20px;
+   
 }
 .navbar li{
     list-style: none;
@@ -47,20 +50,21 @@ body{
 
 /*Body Stating here*/
 .storepic{
+    margin-top: 20px;
     width: 100%;
     height: 440px;
-    background-image: url(/Storepic.jpg);
+    border-radius: 15px;
+    background-image: url(/Images/Storepic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    text-align: center;
+    
 }
 .storepic h1{
     font-family: "Great vibes",cursive;
     font-size: 50px;
-    text-align: center;
-    margin-top: 50px;
-    display: flexbox;
 }
 
 /*Popular styles div*/
