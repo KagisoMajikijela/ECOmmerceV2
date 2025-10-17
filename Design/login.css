@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: auto;
+    width: 100%;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
