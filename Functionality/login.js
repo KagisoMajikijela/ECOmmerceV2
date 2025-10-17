@@ -9,7 +9,8 @@ const username = document.getElementsByName('username')
 const password =document.getElementsByName('password')
 const loginbtn =document.getElementById('login-btn')
 loginbtn.addEventListener('click',login)
-
+ let prsnusername =JSON.oarse(username)
+ 
 
 function login(){
     
