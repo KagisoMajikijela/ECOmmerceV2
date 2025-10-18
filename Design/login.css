@@ -7,3 +7,47 @@
 body{
     background-color: rgb(226, 226, 226);
 }
+h1{
+    text-align: center;
+    margin-top: 90px;
+}
+#login-controls{
+    background: linear-gradient(to bottom left, rgb(71, 71, 71),rgb(56, 56, 56));
+    width: 35rem;
+    height: 20rem;
+    justify-self: center;
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+
+input{
+    align-self: center;
+    text-align: center;
+    display: flex;
+    width: 405px;
+    height: 34px;
+    size: medium ;
+    border-radius: 20px;
+    border: none;
+    margin: 12px;
+}
+#formcontrols{
+    justify-self:center;
+    display: flex;
+    margin: 20px;
+}
+#submitform{
+    justify-self: center;
+    background: linear-gradient(to right,rgb(163, 71, 71),pink);
+    margin-top: 40px;  
+}
+#submitform :hover{
+     background: linear-gradient(to right,rgb(221, 98, 98),rgb(243, 197, 204));
+     cursor: pointer;
+}
+#reset a{
+    color: white;
+    text-decoration:none;
+}

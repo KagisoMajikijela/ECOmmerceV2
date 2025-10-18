@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="/Design/login.css">
 </head>
 <body>
-
-    <div id="login-controls">
+   <h1>login</h1>
+    <div id="login-controls" action="#">
         <label for="Username">Username</label>
-        <input type="username"name="username" required>
+        <input id="formcontrols" type="username"name="username" placeholder="Username" maxlength="15" minlength="6" required>
         <label for="password">password</label>
-        <input type="password" name="password" required>
-        <label for="forgotpassword"><a href="#">forgot password</a></label><br>
-        <label for="resertpassword"><a href="#">Reset Passwrod</a></label>
-        <button id="login-btn" >Login</button>
+        <input id="formcontrols" type="password" name="password" placeholder="password" minlength="12" maxlength="20">
+        <input id="submitform" type="submit" value="login">
+        <label id="reset" for="forgotpassword"><a href="#">forgot password</a></label><br>
+        <label id="reset" for="resertpassword"><a href="#">Reset Passwrod</a></label>
+         
     </div>
     
 </body>
