@@ -10,7 +10,10 @@ const password =document.getElementsByName('password')
 const loginbtn =document.getElementById('login-btn')
 loginbtn.addEventListener('click',login)
  let prsnusername =JSON.oarse(username)
+
  
+ 
+
 
 function login(){
     
@@ -27,4 +30,9 @@ function login(){
         window.location.href='home.html'
     while(loggedin)
         window.alert('You are not logged in')
+}
+
+function clickmef(){
+    window.alert('logging in')
+    window.location.href="home.html"
 }

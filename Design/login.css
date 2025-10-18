@@ -10,6 +10,7 @@ body{
 h1{
     text-align: center;
     margin-top: 90px;
+    font-family:'Courier New', Courier, monospace;
 }
 #login-controls{
     background: linear-gradient(to bottom left, rgb(71, 71, 71),rgb(56, 56, 56));
@@ -50,4 +51,24 @@ input{
 #reset a{
     color: white;
     text-decoration:none;
+}
+/*Mobile Responsiveness on Iphone 15 Pro Max*/
+/* @media screen and (min-width:430px) {
+    #login-controls{
+    width: 22rem;
+    }
+    input{
+        width: 290px;
+    }
+} */
+
+/*Mobile responsivenes is currently working as Expected both on the web and ont the mobile */
+@media screen and (max-width:431px){
+    #login-controls{
+    width: 22rem;
+    }
+    input{
+        width: 290px;
+    }
+
 }
