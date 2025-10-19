@@ -12,10 +12,10 @@ h1{
     margin-top: 90px;
     font-family:'Courier New', Courier, monospace;
 }
-#login-controls{
+#signupform-controls{
     background: linear-gradient(to bottom left, rgb(71, 71, 71),rgb(56, 56, 56));
     width: 35rem;
-    height: 22rem;
+    height: 35rem;
     justify-self: center;
     margin-top: 120px;
     text-align: center;
@@ -34,7 +34,7 @@ input{
     border: none;
     margin: 12px;
 }
-#formcontrols{
+#formcontrols-signup{
     justify-self:center;
     display: flex;
     margin: 20px;
@@ -73,7 +73,7 @@ input{
 
 /*Mobile responsivenes is currently working as Expected both on the web and ont the mobile */
 @media screen and (max-width:431px){
-    #login-controls{
+    #signupform-controls{
     width: 22rem;
     }
     input{
