@@ -1,13 +1,30 @@
 // const Navmenue =document.getElementById('navmenue')
 // Navmenue.addEventListener('click',togglehamburger)
 
+const hamburgermenu =document.getElementById(`hamburger-menue`)
+hamburgermenu.addEventListener(`click`,togglehamburger)
 function togglehamburger(){
-    window.alert('i will hide the navmenue')
-    Navmenue.style.display="None";
+    hamburgermenu.style.display="flex";
 }
 
 function closehamburger(){
-    window.alert('Coder required')
+    hamburgermenu.addEventListener(`click`,()=>{
+        hamburgermenu.style.display="none";
+    })
+}
+
+const threeline =document.getElementsByClassName(`ham3line`)
+// threeline.addEventListener(`click`)
+
+function fixnavicon(){
+    let con =1 
+    if(togglehamburger){
+        threeline.style.display="none"
+    }
+     else if (closehamburger){
+        threeline.style.display="flex"
+     }
+     con=(con-1)
 }
 //functions for the hamburger menu to redirect to the page clicked //
 //Home//
@@ -39,3 +56,8 @@ function login(){
 //         locatiom[i]
 //     }
 // }
+// co
+// function togglehamburger(){
+
+// }
+

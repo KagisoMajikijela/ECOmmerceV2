@@ -20,9 +20,23 @@
             <li><a href="contactUs.html">ContactUs</a></li>
             <li><a href="cart.html">Cart</a></li>
             <li><a href="login.html">Login</a></li>
-           <li> <a href="#" onclick="togglehamburger()"><i class="fa-solid fa-bars"></i></a></li>
+           <li class="ham3line"> <a href="#" onclick="togglehamburger()"><i class="fa-solid fa-bars"></i></a></li>
         </div>
+        
+        <!-- <div class="Activeham">
+            <li class="hamMenActive"> <a href="#" onclick="togglehamburger()"><i class="fa-solid fa-bars"></i></a></li>
+        </div> -->
     </div>
+     <div id="hamburger-menue">
+            <div id="hamburger-menue-controls">
+            <li onclick="home()"><a href="home.html">Home</a></li>
+            <li onclick="gallery()"><a href="gallery.html">Gallery</a></li>
+            <li onclick="contactUs()"><a href="contactUs.html">ContactUs</a></li>
+            <li onclick="cart()"><a href="cart.html">Cart</a></li>
+            <li onclick="login()"><a href="login.html">Login</a></li>
+            <li onclick="closehamburger()" ><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            </div>
+        </div>
 
     <div class="storepic">
          <h1 >Online Is Better</h1>
@@ -69,4 +83,5 @@
         </footer>
        
     </footer>
+    <script src="/Functionality/main.js" defer></script>
 </html>

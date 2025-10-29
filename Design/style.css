@@ -222,7 +222,7 @@ text-align: justify;
 }
 /*Hamburger menue*/
 #hamburger-menue{
-  display: flex;
+  display:none;
   background-color: rgb(95, 95, 95);
   width: 100%;
   height: auto;
@@ -238,6 +238,7 @@ text-align: justify;
   text-decoration: none;
   color: #faf8f6;
   align-self: center;
+  
 }
 
 
@@ -267,10 +268,42 @@ code will go here if necessary for the a tag inside thgen li
   display: block;
   background-color: rgb(168, 168, 168);
   color: black;
+  border-end-start-radius: 12px;
+  border-end-end-radius: 12px;
 }
 
 @media screen and (max-width:500px) {
   #hamburger-menue{
     display: none;
   }
+}
+
+@media (max-width:430px){
+  /* display: ; */
+.navbar{
+  display: none;
+}
+/* .hamMenActive{
+  display: block;
+} */
+}
+@media (min-width:431px){
+.hamMenActive{
+  display: none;
+}
+}
+.Activeham {
+display: flex-end;
+justify-content: flex-end;
+align-items:center;
+}
+.Activeham li{
+  list-style:none;
+  color: black;
+}
+.Activeham li a{
+text-decoration: none;
+color: black;
+justify-content: flex-end;
+display: flex;
 }
